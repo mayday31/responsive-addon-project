@@ -2,11 +2,59 @@ body {
   font-family: "SUSE", sans-serif;
 }
 
-h1 {
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/platonic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  background-position: center;
+  max-width: 100%;
+  padding: 100px;
+}
+
+header h1 {
   font-weight: 900;
   font-size: 80px;
-  font-style: Bold;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
+  line-height: 1.5;
+}
+
+header h2 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  padding: 12px 24px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 25px;
+  }
+
+  header a {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
 }
