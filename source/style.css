@@ -1,6 +1,10 @@
-h1 {
+body {
   font-family: "SUSE", sans-serif;
+}
+
+h1 {
   font-weight: 900;
+  font-size: 80px;
   font-style: Bold;
   leading-trim: NONE;
   line-height: 100%;
