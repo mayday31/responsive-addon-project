@@ -60,7 +60,7 @@ main p small {
 }
 
 .image-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 section {
@@ -78,10 +78,17 @@ section h2 {
   text-align: center;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 4px;
+}
+
 .card {
   background: white;
   margin: 30px;
   line-height: 1.5;
+  border-radius: 10px;
 }
 
 .card-body {
